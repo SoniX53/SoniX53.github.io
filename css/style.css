@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+html, body {
+  width: auto;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: titillium Web, sans-serif;
+  cursor: url('cursor.png'), auto;
+}
+/*header*/
+.header {
+  width: auto;
+  height: 80%;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(90deg, #0652DD, #5352ed);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: url('cursor.png'), auto;
+}
+.header h1 {
+  font-size: 90px;
+  text-align: center;
+  opacity: 1;
+  animation: fade-in 2s;
+  color: #ffffff;
+  transition: color 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.header h1:hover {
+  transition: color 0.3s;
+  color: orange;
+  cursor: url('cursor.png'), auto;
+}
+/*unused button*/
+.button {
+	background-image:linear-gradient(90deg, #EA2027, #833471);
+	border-radius:12px;
+	border:0px solid #EA2027;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: titillium web; sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  align-items: center;
+  transition: background-image 0.3s;
+}
+.button:hover {
+	background-image:linear-gradient(90deg, #EA2027, #ffa502);
+transition: background-image 0.3s;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.nav ul {
+  list-style: none;
+  background-color: #1e90ff;
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 50px;
+  border-bottom: 1px solid #888;
+  padding: 10px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+}
+
+.nav a:hover {
+  background-color: #2ed573;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .body {
+  padding-top: 60px;
+}
+/*main body*/
+.body {
+margin: 0;
+padding: 16px;
+width: auto;
+height: auto;
+cursor: url('cursor.png'), auto;
+}
+.body h1 {
+  font-size: 88px;
+  text-align: left;
+  cursor: url('cursor.png'), auto;
+}
+.body p {
+  font-size: 18px;
+  cursor: url('cursor.png'), auto;
+}
+.body img {
+  float: left;
+  cursor: url('stary.png'), auto;
+}
+/*animation*/
+@keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+/*header2*/
+.heading {
+  width: auto;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(90deg, #EA2027, #EE5A24, #F79F1F);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: url('cursor.png'), auto;
+}
+.heading h1 {
+  font-size: 90px;
+  text-align: center;
+  opacity: 1;
+  animation: fade-in 2s;
+  color: black;
+  cursor: url('cursor.png'), auto;
+  transition: color 0.3s;
+}
+.heading h1:hover {
+  transition: color 0.3s;
+  color: white;
+}
+/*2nd Body*/
+.love {
+  padding: 0 0 20 0;
+  height: 600px;
+  width: auto;
+  background-image: linear-gradient(90deg, #0652DD, #5352ed);
+  background-position: center;
+  background-size: cover;
+  cursor: url('cursor.png'), auto;
+}
+.love h1 {
+  font-size: 64px;
+  text-align: center;
+  color: white;
+  cursor: url('cursor.png'), auto;
+}
+.love p {
+  color: white;
+  font-size: 24px;
+  margin: 20px 0 20px 0;
+  padding: 16px;
+  cursor: url('cursor.png'), auto;
+}
+.love a {
+  text-decoration: none;
+  color: orange;
+  transition: color 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.love a:hover {
+  color: white;
+  transition: color 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.love .fa fa-heart:hover {
+  transition: color 0.3s;
+  color: red;
+  cursor: url('cursor.png'), auto;
+}
+/*full bottom*/
+.end {
+  border-top: 5px solid black;
+  background-image:linear-gradient(90deg, #0652DD, #5352ed);
+  width: 500px;
+  cursor: url('cursor.png'), auto;
+}
+.end ul {
+  padding: 15px;
+  margin: 20px;
+  border: 5px solid white;
+  width: 175px;
+  border-radius: 12px;
+  transition: width 0.5s;
+  cursor: url('cursor.png'), auto;
+}
+.end ul:hover {
+  transition: width 0.5s;
+  width: 250px;
+  cursor: url('cursor.png'), auto;
+}
+.end h3 {
+  font-size: 36px;
+  padding: 20px;
+  margin: 15px;
+  color: white;
+  transition: color 0.3s;
+  width: 375px;
+  cursor: url('cursor.png'), auto;
+}
+.end h3:hover {
+  font-size: 36px;
+  padding: 20px;
+  margin: 15px;
+  color: orange;
+  transition: color 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.end p {
+  color: white;
+text-align: center;
+font-size: 12px;
+transition: font-size 0.3s;
+cursor: url('cursor.png'), auto;
+}
+.end p:hover {
+  font-size: 14px;
+  transition: font-size 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.end li {
+  text-decoration: none;
+  color: white;
+  cursor: url('cursor.png'), auto;
+}
+.end h2 {
+  text-align: right;
+  cursor: url('cursor.png'), auto;
+}
+.end a {
+  color: orange;
+  font-size: 16px;
+  transition: color 0.3s, font-size 0.3s;
+  text-decoration: none;
+  cursor: url('cursor.png'), auto;
+}
+.end a:hover {
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s, font-size 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.end2 {
+  border-top: 5px solid black;
+  background-image:linear-gradient(-90deg, #0652DD, #5352ed);
+  align-items: center;
+  flex: 1;
+  width: auto;
+  cursor: url('cursor.png'), auto;
+}
+.end2 h3 {
+  font-size: 36px;
+  color: white;
+  padding: 20px;
+  margin: 15px;
+  transition: color 0.3s;
+  width: 375px;
+  text-align: left;
+  cursor: url('cursor.png'), auto;
+}
+.end2 h3:hover {
+  font-size: 36px;
+  padding: 20px;
+  margin: 15px;
+  color: orange;
+  transition: color 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.end2 p {
+  color: white;
+text-align: right;
+font-size: 12px;
+transition: font-size 0.3s;
+padding-right: 15px;
+margin-right: 15px;
+cursor: url('cursor.png'), auto;
+}
+.end2 p:hover {
+  font-size: 14px;
+  transition: font-size 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.end2 h4 {
+  text-align: center;
+  cursor: url('cursor.png'), auto;
+}
+.end2 a {
+  color: orange;
+  font-size: 16px;
+  transition: color 0.3s, font-size 0.3s;
+  text-decoration: none;
+  cursor: url('cursor.png'), auto;
+}
+.end2 a:hover {
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s, font-size 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+.end2 li {
+  text-decoration: none;
+  color: white;
+  cursor: url('cursor.png'), auto;
+}
+.end2 ul {
+  padding: 15px;
+  margin: 20px;
+  border: 5px solid white;
+  width: 175px;
+  border-radius: 12px;
+  transition: width 0.5s;
+  cursor: url('cursor.png'), auto;
+}
+.end2 ul:hover {
+  transition: width 0.5s;
+  width: 250px;
+  cursor: url('cursor.png'), auto;
+}
+.endall {
+  display: flex;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  cursor: url('cursor.png'), auto;
+}
+.bottom p {
+    color: white;
+  text-align: center;
+  font-size: 12px;
+  transition: font-size 0.3s;
+  cursor: url('cursor.png'), auto;
+  }
+  .bottom p:hover {
+    font-size: 14px;
+    transition: font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+.bottom {
+    background-image: linear-gradient(-90deg, #e84118, #ff9f1a, #e84118);
+    margin-top: 0;
+    padding-top: 0;
+    cursor: url('cursor.png'), auto;
+  }
+  /*bottom of about page*/
+  .end3 {
+    border-top: 5px solid black;
+    background-image:linear-gradient(90deg, #EA2027, #EE5A24, #F79F1F);
+    width: 500px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 ul {
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid white;
+    width: 175px;
+    border-radius: 12px;
+    transition: width 0.5s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 ul:hover {
+    transition: width 0.5s;
+    width: 250px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 h3 {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: black;
+    transition: color 0.3s;
+    width: 375px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 h3:hover {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    transition: color 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 p {
+    color: white;
+  text-align: center;
+  font-size: 12px;
+  transition: font-size 0.3s;
+  cursor: url('cursor.png'), auto;
+  }
+  .end3 p:hover {
+    font-size: 14px;
+    transition: font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 li {
+    text-decoration: none;
+    color: white;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 h2 {
+    text-align: right;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 a {
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s, font-size 0.3s;
+    text-decoration: none;
+    cursor: url('cursor.png'), auto;
+  }
+  .end3 a:hover {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s, font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 {
+    border-top: 5px solid black;
+    background-image:linear-gradient(-90deg, #EA2027, #EE5A24, #F79F1F);
+    align-items: center;
+    flex: 1;
+    width: auto;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 h3 {
+    font-size: 36px;
+    color: black;
+    padding: 20px;
+    margin: 15px;
+    transition: color 0.3s;
+    width: 375px;
+    text-align: left;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 h3:hover {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    transition: color 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 p {
+    color: white;
+  text-align: right;
+  font-size: 12px;
+  transition: font-size 0.3s;
+  padding-right: 15px;
+  margin-right: 15px;
+  cursor: url('cursor.png'), auto;
+  }
+  .end4 p:hover {
+    font-size: 14px;
+    transition: font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 h4 {
+    text-align: center;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 a {
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s, font-size 0.3s;
+    text-decoration: none;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 a:hover {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s, font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 li {
+    text-decoration: none;
+    color: white;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 ul {
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid white;
+    width: 175px;
+    border-radius: 12px;
+    transition: width 0.5s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end4 ul:hover {
+    transition: width 0.5s;
+    width: 250px;
+    cursor: url('cursor.png'), auto;
+  }
+  .endall2 {
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    cursor: url('cursor.png'), auto;
+  }
+  /*3rd Header*/
+  .header2 h1 {
+    font-size: 90px;
+    text-align: center;
+    opacity: 1;
+    animation: fade-in 2s;
+    color: black;
+    cursor: url('cursor.png'), auto;
+    transition: color 0.3s;
+  }
+  .header2 h1:hover {
+    transition: color 0.3s;
+    color: white;
+  }
+  .header2 {
+    width: auto;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(90deg, #2ecc71, #55efc4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: url('cursor.png'), auto;
+  }
+  /*bottom of works*/
+  .end5 {
+    border-top: 5px solid black;
+    background-image:linear-gradient(90deg, #2ecc71, #55efc4);
+    width: 500px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 ul {
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid white;
+    width: 175px;
+    border-radius: 12px;
+    transition: width 0.5s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 ul:hover {
+    transition: width 0.5s;
+    width: 250px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 h3 {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: black;
+    transition: color 0.3s;
+    width: 375px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 h3:hover {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    transition: color 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 p {
+    color: white;
+  text-align: center;
+  font-size: 12px;
+  transition: font-size 0.3s;
+  cursor: url('cursor.png'), auto;
+  }
+  .end5 p:hover {
+    font-size: 14px;
+    transition: font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 li {
+    text-decoration: none;
+    color: white;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 h2 {
+    text-align: right;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 a {
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s, font-size 0.3s;
+    text-decoration: none;
+    cursor: url('cursor.png'), auto;
+  }
+  .end5 a:hover {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s, font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 {
+    border-top: 5px solid black;
+    background-image:linear-gradient(-90deg, #2ecc71, #55efc4);
+    align-items: center;
+    flex: 1;
+    width: auto;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 h3 {
+    font-size: 36px;
+    color: black;
+    padding: 20px;
+    margin: 15px;
+    transition: color 0.3s;
+    width: 375px;
+    text-align: left;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 h3:hover {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    transition: color 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 p {
+    color: white;
+  text-align: right;
+  font-size: 12px;
+  transition: font-size 0.3s;
+  padding-right: 15px;
+  margin-right: 15px;
+  cursor: url('cursor.png'), auto;
+  }
+  .end6 p:hover {
+    font-size: 14px;
+    transition: font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 h4 {
+    text-align: center;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 a {
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s, font-size 0.3s;
+    text-decoration: none;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 a:hover {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s, font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 li {
+    text-decoration: none;
+    color: white;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 ul {
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid white;
+    width: 175px;
+    border-radius: 12px;
+    transition: width 0.5s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end6 ul:hover {
+    transition: width 0.5s;
+    width: 250px;
+    cursor: url('cursor.png'), auto;
+  }
+  .endall3 {
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    cursor: url('cursor.png'), auto;
+  }
