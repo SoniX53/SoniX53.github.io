@@ -3,7 +3,7 @@ window.onbeforeunload = function () {
 }
        window.onscroll = function() {myFunction()};
 
-       var navbar = document.getElementById("navbar");
+       var navbar = document.getElementById("nav");
        var sticky = navbar.offsetTop;
 
        function myFunction() {
