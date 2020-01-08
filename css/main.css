@@ -159,10 +159,12 @@ li.hide {
     white-space: nowrap;
     position: relative;
     cursor:pointer;
+	tarnsition: background .3s;
 }
 
 .menu li:hover{
     background: rgba(0,0,0,.1);
+	transition: background .3s;
 }
 
 /* show sub nav on hover */
