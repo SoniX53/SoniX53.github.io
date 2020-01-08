@@ -3,9 +3,9 @@
 | Core CSS
 |-----------------------------------------
  */
-
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 html, body {
-    font-family: Open Sans, Arial, sans-serif;
+    font-family: 'Titillium Web', Open Sans, Arial, sans-serif;
     height: 100%;
     width:100%;
     margin: 0;
