@@ -720,3 +720,190 @@ cursor: url('cursor.png'), auto;
     margin-bottom: 0;
     cursor: url('cursor.png'), auto;
   }
+	/*bottom of contact*/
+  .endall4 {
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 ul {
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid white;
+    width: 175px;
+    border-radius: 12px;
+    transition: width 0.5s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 ul:hover {
+    transition: width 0.5s;
+    width: 250px;
+    cursor: url('cursor.png'), auto;
+  }
+	.end8 {
+    
+    background-image:linear-gradient(90deg, #3d3d3d, #4b4b4b);
+    align-items: center;
+    flex: 1;
+    width: auto;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 h3 {
+    font-size: 36px;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    transition: color 0.3s;
+    width: 375px;
+    text-align: left;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 h3:hover {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: #18dcff;
+    transition: color 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 p {
+    color: white;
+  text-align: right;
+  font-size: 12px;
+  transition: font-size 0.3s;
+  padding-right: 15px;
+  margin-right: 15px;
+  cursor: url('cursor.png'), auto;
+  }
+  .end8 p:hover {
+    font-size: 14px;
+    transition: font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 h4 {
+    text-align: center;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 a {
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s, font-size 0.3s;
+    text-decoration: none;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 a:hover {
+    color: #18dcff;
+    font-size: 18px;
+    transition: color 0.3s, font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end8 li {
+    text-decoration: none;
+    color: white;
+    cursor: url('cursor.png'), auto;
+	    .end5 {
+   
+    background-color: #2ecc71;
+    width: 500px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 ul {
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid white;
+    width: 175px;
+    border-radius: 12px;
+    transition: width 0.5s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 ul:hover {
+    transition: width 0.5s;
+    width: 250px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 h3 {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    transition: color 0.3s;
+    width: 375px;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 h3:hover {
+    font-size: 36px;
+    padding: 20px;
+    margin: 15px;
+    color: #18dcff;
+    transition: color 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 p {
+    color: white;
+  text-align: center;
+  font-size: 12px;
+  transition: font-size 0.3s;
+  cursor: url('cursor.png'), auto;
+  }
+  .end7 p:hover {
+    font-size: 14px;
+    transition: font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 li {
+    text-decoration: none;
+    color: white;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 h2 {
+    text-align: right;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 a {
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s, font-size 0.3s;
+    text-decoration: none;
+    cursor: url('cursor.png'), auto;
+  }
+  .end7 a:hover {
+    color: #18dcff;
+    font-size: 18px;
+    transition: color 0.3s, font-size 0.3s;
+    cursor: url('cursor.png'), auto;
+  }
+	  .end7 {
+   
+    background-color: #4b4b4b;
+    width: 500px;
+    cursor: url('cursor.png'), auto;
+  }
+	  /*contact header*/
+	  .header3 h1 {
+    font-size: 90px;
+    text-align: center;
+    opacity: 1;
+    animation: fade-in 2s;
+    color: white;
+    cursor: url('cursor.png'), auto;
+    transition: color 0.3s;
+  }
+  .header3 h1:hover {
+    transition: color 0.3s;
+    color: #18dcff;
+  }
+  .header3 {
+    width: auto;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(90deg, #3d3d3d, #4b4b4b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: url('cursor.png'), auto;
+  }
