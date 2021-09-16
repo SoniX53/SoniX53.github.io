@@ -60,6 +60,7 @@ transition: background-image 0.3s;
 	position:relative;
 	top:1px;
 }
+/*nav*/
 .nav ul {
   list-style: none;
   background-color: #1e90ff;
@@ -86,7 +87,7 @@ transition: background-image 0.3s;
 }
 
 .nav a:hover {
-  background-color: #2ed573;
+  background-color: #7efff5;
 }
 
 .nav a.active {
