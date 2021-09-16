@@ -719,8 +719,3 @@ cursor: url('cursor.png'), auto;
     margin-bottom: 0;
     cursor: url('cursor.png'), auto;
   }
-
-  li:hover {
-  font-size: 36px;
-	  transition: 0.3s;
-  }
