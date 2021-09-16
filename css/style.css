@@ -385,7 +385,7 @@ cursor: url('cursor.png'), auto;
   }
   /*bottom of about page*/
   .end3 {
-    border-top: 5px solid black;
+    
     background-color: #EA2027;
     width: 500px;
     cursor: url('cursor.png'), auto;
