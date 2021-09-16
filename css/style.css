@@ -87,7 +87,7 @@ transition: background-image 0.3s;
 }
 
 .nav a:hover {
-  background-color: #7efff5;
+  background-color: #f39c12;
 }
 
 .nav a.active {
