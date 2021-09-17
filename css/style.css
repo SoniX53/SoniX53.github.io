@@ -907,3 +907,6 @@ cursor: url('cursor.png'), auto;
     justify-content: center;
     cursor: url('cursor.png'), auto;
   }
+.bodyform {
+	margin: auto;
+	  }
