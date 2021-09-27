@@ -140,6 +140,13 @@ cursor: url('cursor.png'), auto;
   float: left;
   cursor: url('stary.png'), auto;
 }
+.body a {
+  text-decoration: none;
+  color: orange;
+  transition: color 0.3s;
+  cursor: url('cursor.png'), auto;
+}
+	
 /*animation*/
 @keyframes fade-in {
   0% {opacity: 0;}
