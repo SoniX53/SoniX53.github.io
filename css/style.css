@@ -931,3 +931,115 @@ cursor: url('cursor.png'), auto;
     margin: auto;
 	   text-align: center;
  }
+.first img {
+	 border-style: solid;
+	 border-width: 5px;
+	 width: 40%;
+	 height: 30%;
+	 transition: 0.3s;
+	 float: right;
+	 padding: -2px -2px -2px -2px;
+ }
+.first img:hover {
+	 border-style: solid;
+	 border-width: 5px;
+	 width: 50%;
+	 height: 40%;
+	 transition: 0.3s;
+	 
+ }
+ .first {
+	background-color: white;
+	 background-size: cover;
+	padding-bottom: 100px;
+	padding-top: 100px;
+ }
+ 
+ .first h1 {
+	 font-size: 36px;
+	 color: #1B9CFC;
+	 transition: 0.3s;
+ }
+ .first h1:hover {
+	 font-size: 36px;
+	 color: #EA2027;
+	 transition: 0.3s;
+ }
+ 
+ .first p {
+	 font-size: 18px;
+ }
+ .second img {
+	 border-style: solid;
+	 border-width: 5px;
+	 width: 40%;
+	 height: 30%;
+	 transition: 0.3s;
+	 float: left;
+	 padding: -2px -2px -2px -2px;
+ }
+.second img:hover {
+	 border-style: solid;
+	 border-width: 5px;
+	 width: 50%;
+	 height: 40%;
+	 transition: 0.3s;
+ }
+ .second {
+	background-color: white;
+	 background-size: cover;
+	 padding-bottom: 100px;
+	 padding-top: 100px;
+ }
+ 
+ .second h1 {
+	 font-size: 36px;
+	 color: #1B9CFC;
+	 transition: 0.3s;
+ }
+ .second h1:hover {
+	 font-size: 36px;
+	 color: #EA2027;
+	 transition: 0.3s;
+ }
+ 
+ .second p {
+	 font-size: 18px;
+ }
+ 
+ .third img {
+	 border-style: solid;
+	 border-width: 5px;
+	 width: 40%;
+	 height: 30%;
+	 transition: 0.3s;
+	 float: right;
+	 padding: -2px -2px -2px -2px;
+ }
+.third img:hover {
+	 border-style: solid;
+	 border-width: 5px;
+	 width: 50%;
+	 height: 40%;
+	 transition: 0.3s;
+ }
+ .third {
+	background-color: white;
+	 background-size: cover;
+	 padding-bottom: 100px;
+	 padding-top: 100px;
+ }
+ 
+ .third h1 {
+	 font-size: 36px;
+	 color: #1B9CFC;
+	 transition: 0.3s;
+ }
+ .third h1:hover {
+	 font-size: 36px;
+	 color: #EA2027;
+	 transition: 0.3s;
+ }
+ .third p {
+	 font-size: 18px;
+ }
