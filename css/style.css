@@ -940,14 +940,14 @@ cursor: url('cursor.png'), auto;
 	 float: right;
 	 padding: -2px -2px -2px -2px;
  }
-.cur img:hover {
+/*.cur img:hover {
 	 border-style: solid;
 	 border-width: 5px;
 	 width: 50%;
 	 height: 40%;
 	 transition: 0.3s;
 	 
- }
+ }*/
  .cur {
 	background-color: white;
 	 background-size: cover;
@@ -978,13 +978,13 @@ cursor: url('cursor.png'), auto;
 	 float: left;
 	 padding: -2px -2px -2px -2px;
  }
-.cur2 img:hover {
+/*.cur2 img:hover {
 	 border-style: solid;
 	 border-width: 5px;
 	 width: 50%;
 	 height: 40%;
 	 transition: 0.3s;
- }
+ }*/
  .cur2 {
 	background-color: white;
 	 background-size: cover;
@@ -1016,13 +1016,13 @@ cursor: url('cursor.png'), auto;
 	 float: right;
 	 padding: -2px -2px -2px -2px;
  }
-.cur3 img:hover {
+/*.cur3 img:hover {
 	 border-style: solid;
 	 border-width: 5px;
 	 width: 50%;
 	 height: 40%;
 	 transition: 0.3s;
- }
+ }*/
  .cur3 {
 	background-color: white;
 	 background-size: cover;
