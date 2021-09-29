@@ -152,14 +152,14 @@ cursor: url('cursor.png'), auto;
   transition: color 0.3s;
   cursor: url('cursor.png'), auto;
 }	
-.social a {
+.can a {
   font-size: 24px;
   text-decoration: none;
   color: orange;
   transition: 0.3s;
   cursor: url('cursor.png'), auto;
 }
-.social a:hover {
+.can a:hover {
   font-size: 36px;
   text-decoration: none;
   color: black;
