@@ -1059,3 +1059,6 @@ cursor: url('cursor.png'), auto;
 	.games {
 		background-image: linear-gradient(#ff3f34, #ff5e57);
 	}
+.games ul {
+	color: white;
+	}
