@@ -1043,3 +1043,19 @@ cursor: url('cursor.png'), auto;
  .cur3 p {
 	 font-size: 18px;
  }
+.games a {
+	color: white;
+	font-size: 18px;
+	transition: 0.3s;
+	text-decoration: none;
+	
+}
+.games a:hover {
+	color: orange;
+	font-size: 18px;
+	transition: 0.3s
+	text-decoration: none;
+}
+	.games {
+		background-color: #0c2461;
+	}
