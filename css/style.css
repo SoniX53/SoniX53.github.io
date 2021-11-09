@@ -1062,3 +1062,6 @@ cursor: url('cursor.png'), auto;
 .games ul {
 	color: white;
 	}
+.can a {
+	font-size: 24px;
+	}
