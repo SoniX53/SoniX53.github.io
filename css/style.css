@@ -1057,5 +1057,5 @@ cursor: url('cursor.png'), auto;
 	text-decoration: none;
 }
 	.games {
-		background-color: #0c2461;
+		background-image: linear-gradient(#ff3f34, #ff5e57);
 	}
