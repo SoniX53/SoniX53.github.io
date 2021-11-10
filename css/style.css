@@ -1052,7 +1052,7 @@ cursor: url('cursor.png'), auto;
 }
 .games a:hover {
 	color: orange;
-	font-size: 24px;
+	font-size: 18px;
 	transition: 0.3s
 	text-decoration: none;
 }
