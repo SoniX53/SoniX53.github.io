@@ -1045,14 +1045,14 @@ cursor: url('cursor.png'), auto;
  }
 .games a {
 	color: white;
-	font-size: 18px;
+	font-size: 24px;
 	transition: 0.3s;
 	text-decoration: none;
 	
 }
 .games a:hover {
 	color: orange;
-	font-size: 18px;
+	font-size: 24px;
 	transition: 0.3s
 	text-decoration: none;
 }
