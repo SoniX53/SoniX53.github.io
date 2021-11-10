@@ -1061,7 +1061,9 @@ cursor: url('cursor.png'), auto;
 	}
 .games ul {
 	color: white;
+	column-count: 3;
 	}
 .can a {
 	font-size: 24px;
 	}
+	
