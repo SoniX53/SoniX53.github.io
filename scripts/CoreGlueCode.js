@@ -77,6 +77,7 @@ var games = {
     "mortal_kombat":"Mortal Kombat Advance",
     "mkd":"Mortal Kombat - Deadly Alliance",
     "naruto":"Naruto - Ninja Council",
+    "needforspeed":"Need for Speed - Underground",
     "onepiece":"One Piece",
     "pacman_world":"Pacman World",
     "pacman_world2":"Pacman World 2",
