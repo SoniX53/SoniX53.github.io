@@ -1,6 +1,5 @@
-//*CSS FOR ALL PAGES EXCEPT LAUNCHER*//
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
-//*properties for the entire html*//
+/*properties for the entire html*/
 html, body {
   width: auto;
   height: 100%;
@@ -24,7 +23,7 @@ html, body {
   justify-content: center;
   cursor: url('cursor.png'), auto;
 }
-//*header text*//
+/*header text*/
 .header h1 {
   font-size: 90px;
   text-align: center;
@@ -95,7 +94,7 @@ html, body {
   color: #444;
   cursor: default;
 }
-//*no idea what this is*//
+/*no idea what this is*/
 @media screen and (min-width: 600px) {
 .nav li {
     width: 120px;
@@ -109,7 +108,7 @@ html, body {
     display: inline-block;
     margin-right: -4px;
 }
-//*sticky property for navbar (doesn't work)*//
+/*sticky property for navbar (doesn't work)*/
 .sticky {
   position: fixed;
   top: 0;
@@ -383,7 +382,7 @@ cursor: url('cursor.png'), auto;
   width: 250px;
   cursor: url('cursor.png'), auto;
 }
-//*the entire bottom*//
+/*the entire bottom*/
 .endall {
   display: flex;
   padding-bottom: 0;
@@ -554,7 +553,7 @@ cursor: url('cursor.png'), auto;
     width: 250px;
     cursor: url('cursor.png'), auto;
 }
-//*why did I make another endall nothing really changes*//
+/*why did I make another endall nothing really changes*/
 .endall2 {
     display: flex;
     padding-bottom: 0;
@@ -735,21 +734,21 @@ cursor: url('cursor.png'), auto;
     width: 250px;
     cursor: url('cursor.png'), auto;
 }
-//*another endall???*//
+/*another endall???*/
 .endall3 {
     display: flex;
     padding-bottom: 0;
     margin-bottom: 0;
     cursor: url('cursor.png'), auto;
 }
-//*WHY*//
+/*WHY*/
 .endall4 {
     display: flex;
     padding-bottom: 0;
     margin-bottom: 0;
     cursor: url('cursor.png'), auto;
 }
-//*end for contact page*//
+/*end for contact page*/
 .end8 ul {
     padding: 15px;
     margin: 20px;
@@ -895,7 +894,7 @@ cursor: url('cursor.png'), auto;
     width: 500px;
     cursor: url('cursor.png'), auto;
 }
-//*Header for contact page*//	 
+/*Header for contact page*/ 
 .header3 h1 {
     font-size: 90px;
     text-align: center;
@@ -923,12 +922,12 @@ cursor: url('cursor.png'), auto;
     justify-content: center;
     cursor: url('cursor.png'), auto;
 }
-//*Body for google form*//
+/*Body for google form*/
 .bodyform {
     margin: auto;
     text-align: center;
 }
-//*Project Bios*//
+/*Project Bios*/
 .cur img {
 	 border-style: solid;
 	 border-width: 5px;
