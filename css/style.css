@@ -1040,7 +1040,7 @@ cursor: url('cursor.png'), auto;
 }
 /*style for the games page (finally)*/
 .games a {
-	color: white;
+	color: ;
 	font-size: 18px;
 	transition: 0.3s;
 	text-decoration: none;	
@@ -1052,7 +1052,7 @@ cursor: url('cursor.png'), auto;
 	text-decoration: none;
 }
 .games {
-	background-image: linear-gradient(#ff3f34, #ff5e57);
+	background-image: linear-gradient(white, #ff5e57);
 	padding: 0 0 0 0;
 }
 .games ul {
