@@ -929,10 +929,10 @@ cursor: url('cursor.png'), auto;
 }
 /*Project Bios*/
 .cur img {
-	 border-style: solid;
-	 border-width: 5px;
+	 /*border-style: solid;
+	 border-width: 5px;*/
 	 width: 50%;
-	 height: 50%;
+	 height: 60%;
 	 transition: 0.3s;
 	 float: right;
 	 padding: -2px -2px -2px -2px;
@@ -968,8 +968,8 @@ cursor: url('cursor.png'), auto;
 .cur2 img {
 	 border-style: solid;
 	 border-width: 5px;
-	 width: 50%;
-	 height: 50%;
+	 width: 40%;
+	 height: 40%;
 	 transition: 0.3s;
 	 float: left;
 	 padding: -2px -2px -2px -2px;
@@ -1005,8 +1005,8 @@ cursor: url('cursor.png'), auto;
 .cur3 img {
 	 border-style: solid;
 	 border-width: 5px;
-	 width: 50%;
-	 height: 50%;
+	 width: 40%;
+	 height: 40%;
 	 transition: 0.3s;
 	 float: right;
 	 padding: -2px -2px -2px -2px;
