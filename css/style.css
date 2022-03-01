@@ -950,7 +950,7 @@ cursor: url('cursor.png'), auto;
 	background-color: white;
 	 background-size: cover;
 	padding-bottom: 100px;
-	padding-top: 100px;
+	padding-top: 20px;
  }
 .cur h1 {
 	 font-size: 36px;
