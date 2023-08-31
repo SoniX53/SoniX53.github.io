@@ -1041,7 +1041,7 @@ cursor: url('cursor.png'), auto;
 }
 /*style for the games page (finally)*/
 .games a {
-	color: ;
+	color: white;
 	font-size: 18px;
 	transition: 0.3s;
 	text-decoration: none;	
@@ -1053,12 +1053,13 @@ cursor: url('cursor.png'), auto;
 	text-decoration: none;
 }
 .games {
-	background-image: linear-gradient(white, #ff5e57);
+	background-image: linear-gradient(#4bcffa, #575fcf);
 	padding: 0 0 0 0;
 }
 .games ul {
 	color: white;
 	column-count: 3;
+	style: none;
 }
 .can a {
 	font-size: 24px;
