@@ -932,7 +932,7 @@ cursor: url('cursor.png'), auto;
 	 /*border-style: solid;
 	 border-width: 5px;*/
 	 width: 328px;
-	 height: 227;
+	 height: 227px;
 	 transition: 0.3s;
 	 float: right;
 	 padding: -2px -2px -2px -2px;
@@ -968,8 +968,8 @@ cursor: url('cursor.png'), auto;
 .cur2 img {
 	 border-style: solid;
 	 border-width: 5px;
-	 width: 40%;
-	 height: 40%;
+	 width: 20%;
+	 height: 20%;
 	 transition: 0.3s;
 	 float: left;
 	 padding: -2px -2px -2px -2px;
