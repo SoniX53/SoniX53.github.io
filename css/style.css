@@ -1055,9 +1055,7 @@ cursor: url('cursor.png'), auto;
 .games {
 	background-image: linear-gradient(#4bcffa, #575fcf);
 	padding: -2px -2px -2px -2px;
-	background-style: cover;
-	background-position: left;
-	background-repeat: repeat-x;
+	background-size: cover;
 }
 .games ul {
 	color: white;
