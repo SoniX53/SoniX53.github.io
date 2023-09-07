@@ -8,6 +8,7 @@ html, body {
   font-family: titillium Web, sans-serif;
   background-image: linear-gradient(#4bcffa, #575fcf);
   background-size: cover;
+  background-attachment: fixed;
 }
 /*nav for all pages*/
 .nav ul {
