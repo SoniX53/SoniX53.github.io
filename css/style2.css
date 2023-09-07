@@ -70,47 +70,8 @@ padding: 16px;
 width: auto;
 height: auto;
 }
-.body h1 {
-  font-size: 88px;
-  text-align: left;
-  cursor: url('cursor.png'), auto;
-}
-.body p {
-  font-size: 18px;
-  cursor: url('cursor.png'), auto;
-}
-.body img {
-  float: left;
-  cursor: url('stary.png'), auto;
-}
-.body a {
-  text-decoration: none;
-  color: orange;
-  transition: color 0.3s;
-  cursor: url('cursor.png'), auto;
-}
-.body a:hover {
-  text-decoration: none;
-  color: black;
-  transition: color 0.3s;
-  cursor: url('cursor.png'), auto;
-}	
-.can a {
-  font-size: 24px;
-  text-decoration: none;
-  color: orange;
-  transition: 0.3s;
-  cursor: url('cursor.png'), auto;
-}
-.can a:hover {
-  font-size: 36px;
-  text-decoration: none;
-  color: black;
-  transition: 0.3s;
-  cursor: url('cursor.png'), auto;
-}
 /*style for the games page (finally)*/
-.games a {
+.body a {
 	color: white;
 	font-size: 18px;
 	transition: 0.3s;
@@ -119,17 +80,17 @@ height: auto;
 .games {
 
 }
-.games a:hover {
+.body a:hover {
 	color: orange;
 	font-size: 18px;
 	transition: 0.3s
 	text-decoration: none;
 }
-.games ul {
+.body ul {
 	color: white;
 	column-count: 3;
 	list-style: none;
 }
-.games h1 {
+.body h1 {
 font-color: white;
 }
