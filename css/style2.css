@@ -6,7 +6,8 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: titillium Web, sans-serif;
-background-image: linear-gradient(#4bcffa, #575fcf);
+  background-image: linear-gradient(#4bcffa, #575fcf);
+  background-size: cover;
 }
 /*nav for all pages*/
 .nav ul {
@@ -71,7 +72,7 @@ width: auto;
 height: auto;
 }
 /*style for the games page (finally)*/
-.body a {
+.games a {
 	color: white;
 	font-size: 18px;
 	transition: 0.3s;
@@ -80,17 +81,17 @@ height: auto;
 .games {
 
 }
-.body a:hover {
+.games a:hover {
 	color: orange;
 	font-size: 18px;
 	transition: 0.3s
 	text-decoration: none;
 }
-.body ul {
+.games ul {
 	color: white;
 	column-count: 3;
 	list-style: none;
 }
-.body h1 {
+.games h1 {
 font-color: white;
 }
